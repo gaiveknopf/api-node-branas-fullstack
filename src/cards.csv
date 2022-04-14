@@ -1,0 +1,4 @@
+"COLUMN","TITLE","ESTIMATIVE"
+"TODO","Implementar a importação de arquivo no formato CSV","10"
+"TODO","Migrar o banco de dados para PostgreSQL","20"
+"TODO","Atualizar a versão do Vue.js para 3","30"

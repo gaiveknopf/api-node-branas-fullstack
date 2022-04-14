@@ -63,5 +63,4 @@ test("should store the time in each column", () => {
   const card = board.getColumn("Doing").getCard("Task 1");
   expect(card.transitions[0].date).toEqual(new Date("2022-04-10T10:00:00"));
   expect(card.transitions[1].date).toEqual(new Date("2022-04-14T10:30:00"));
-  console.log(card);
 });
