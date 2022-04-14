@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx ts-node src/main.ts",
+    "main": "tsc && node dist/main",
+    "test": "npx jest",
+    "test-watch": "npx jest --watch-all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0"
+  }
+}
